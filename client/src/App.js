@@ -21,7 +21,9 @@ const App = () => {
     <Container maxWidth="lg">
       <AppBar className={classes.appBar} position="static" color="inherit">
         <Typography className={classes.heading} variant="h2" align="center">일기장</Typography>
-        <img className={classes.image} src={memories} alt="icon" height="60" />
+        <a href="https://venerable-hummingbird-d9e3a9.netlify.app/" target="_blank" rel="noopener noreferrer">
+          <img className={classes.image} src={memories} alt="icon" height="60" />
+        </a>
       </AppBar>
       <Grow in>
         <Container>
